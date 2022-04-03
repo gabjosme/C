@@ -5,6 +5,7 @@ uma tabela com a tabuada de 1 a 10
 
 *******************************************************************************/
 #include <stdio.h>
+#include <stdlib.h>
 int main()
 {
 	int n1;
@@ -18,6 +19,7 @@ int main()
 	printf("%d * %d = %d \n",n1,x,resultado);
 	x++;
 	}
+	system ("pause");
 }
 
 
