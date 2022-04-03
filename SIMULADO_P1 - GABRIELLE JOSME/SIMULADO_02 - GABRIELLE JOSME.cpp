@@ -4,6 +4,7 @@ inteiros e imprime o resultado da expressão:
 <valor 1> <operador> <valor 2> = <total>
 *******************************************************************************/
 #include <stdio.h>
+#include <stdlib.h>
 int main()
 {
 	float n1,n2;
@@ -31,5 +32,6 @@ int main()
 		printf("%0.2f  %c  %0.2f = %0.2f",n1,operador,n2,tot);
 		break;
 	}
+	system ("pause");
 }
 
