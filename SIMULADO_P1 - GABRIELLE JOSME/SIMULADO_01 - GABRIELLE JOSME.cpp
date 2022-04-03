@@ -1,36 +1,37 @@
 /******************************************************************************
-FaÁa um programa em "C" que lÍ dois valores e imprime:
-ï se o primeiro valor for menor que o segundo, a lista de valores do primeiro atÈ o segundo;
-ï se o primeiro valor for maior que o segundo a lista de valores do primeiro atÈ o segundo em ordem
+Fa√ßa um programa em "C" que l√™ dois valores e imprime:
+‚Ä¢ se o primeiro valor for menor que o segundo, a lista de valores do primeiro at√© o segundo;
+‚Ä¢ se o primeiro valor for maior que o segundo a lista de valores do primeiro at√© o segundo em ordem
 decrescente;
-ï se ambos forem iguais a mensagem "valores iguaisî
+‚Ä¢ se ambos forem iguais a mensagem "valores iguais‚Äù
 *******************************************************************************/
 #include <stdio.h>
+#include <stdlib.h>
 int main()
 {
 	int n1,n2;
 	int x;
-	printf("Insira dois n˙meros:\n");
+	printf("Insira dois n√∫meros:\n");
 	scanf("%d %d",&n1,&n2);
 	if (n1==n2){
-		printf("Os n˙meros s„o iguais");
+		printf("Os n√∫meros s√£o iguais");
 	}else if(n1>n2){
 		x=n1;
-		printf("O maior n˙mero È o %d",n1);
-		printf("\nA sequÍncia decrescente È");
+		printf("O maior n√∫mero √© o %d",n1);
+		printf("\nA sequ√™ncia decrescente √©");
 		while(x>n2){
 		printf("  %d  ",x);
 		x--;
 	}
 	}else{
 		x=n2;
-		printf("O maior n˙mero È o %d",n2);
-		printf("\nA sequÍncia crescente È");
+		printf("O maior n√∫mero √© o %d",n2);
+		printf("\nA sequ√™ncia crescente √©");
 		while(x>n1){
 		printf("  %d  ",n1);
 		n1++;
 	}
 }
-	
+	system ("pause");
 }
 
