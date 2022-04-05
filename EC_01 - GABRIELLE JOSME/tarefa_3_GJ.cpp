@@ -1,3 +1,21 @@
+	/*
+	Em uma eleição presidencial existem quatro candidatos. Os votos são informados por meio de código. Os
+	códigos utilizados são:
+	1 - candidato Jose
+	2 - candidato Joao
+	3 - candidata Maria
+	4 - candidata Fatima
+	5 - Voto Nulo
+	6 - Voto em Branco
+	Faça um programa que calcule e mostre:
+	a) O total de votos para cada candidato;
+	b) O total de votos nulos;
+	c) O total de votos em branco;
+	d) percentagem de votos nulos sobre o total de votos;
+	e) A percentagem de votos em branco sobre o total de votos.
+	A entrada de votos só finalizará quando o candidato escolhido for 0 (zero)
+	*/
+
 	#include <stdio.h>
 	#include <stdlib.h>
 	int
@@ -51,8 +69,8 @@
 	  printf ("\nb)O total de votos nulos e %d",vot5);
 	  printf ("\nc)O total de votos em branco e %d",vot6);
 	  perc_nulo=((float)vot5/(float)tot_vot)*100;
-	  printf("\nd)O percentual de votos nulos � %.2f%%",perc_nulo);
+	  printf("\nd)O percentual de votos nulos é %.2f%%",perc_nulo);
 	  perc_branc=((float)vot6/(float)tot_vot)*100;
-	  printf("\ne)O percentual de votos brancos � %.2f%%",perc_branc);
+	  printf("\ne)O percentual de votos brancos é %.2f%%",perc_branc);
 	  system ("pause");
 	}
