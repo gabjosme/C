@@ -7,6 +7,7 @@
 	4 - Você é Capixaba
 	Diferente dos acima - Você não é do sudeste
 	*/
+
 	#include <stdio.h>
 	#include <stdlib.h>
 	int main()
