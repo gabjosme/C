@@ -1,3 +1,16 @@
+	/*
+	Escreva um programa que, dados dois n√∫meros inteiros, mostre na tela o maior deles, assim como a
+	diferen√ßa existente entre ambos.
+	Imprima tamb√©m todos os n√∫meros IMPARES entre eles, de forma reversa
+	Se por acaso, os dois n√∫meros forem iguais, imprima a mensagem N√∫meros iguais.
+	
+	Exemplo de sa√≠da:
+	Digite dois valores: 9 5
+	Seu maior n√∫mero foi: 9
+	A diferen√ßa entre eles foi de: 4
+	Reverso: 9 7 5
+	*/
+
 	#include <stdio.h>
 	#include <stdlib.h>
 	int main()
@@ -7,18 +20,18 @@
 	int dif;
 	int x=0;
 	
-	printf("Digite dois n˙meros inteiros\n");
+	printf("Digite dois n√∫meros inteiros\n");
 	scanf("%d %d",&num1,&num2);	
 	
 	if(num1==num2){
-		printf("Os n˙meros s„o iguais");
+		printf("Os n√∫meros s√£o iguais");
 	}
 	else if  (num1 > num2){
 		dif = num1 - num2;
 		x = num1;
-		printf("O maior È %d\n",num1);
-		printf("DiferenÁa entre eles È %d",dif);
-		printf("\n O reverso dos impares È ");
+		printf("O maior √© %d\n",num1);
+		printf("Diferen√ßa entre eles √© %d",dif);
+		printf("\n O reverso dos impares √© ");
 		while(num2<x){
 			if (x%2!=0){
 				printf(" %d",x);
@@ -29,9 +42,9 @@
 	else {
 		dif = num2 - num1;
 		x = num2;
-		printf("O maior È %d\n",num2);
-		printf("DiferenÁa entre eles È %d",dif);
-		printf("\n O reverso È ");
+		printf("O maior √© %d\n",num2);
+		printf("Diferen√ßa entre eles √© %d",dif);
+		printf("\n O reverso √© ");
 		while(num1<x){
 			if (x%2!=0){
 				printf(" %d",x);
