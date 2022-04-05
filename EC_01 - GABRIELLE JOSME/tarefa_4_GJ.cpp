@@ -1,3 +1,11 @@
+	/*
+	Faça um programa que, para um número indeterminado de pessoas: leia a idade de cada uma, sendo que a
+	idade 0 (zero) indica o fim da leitura e não deve ser considerada. A seguir calcule:
+	• o número de pessoas;
+	• a idade média do grupo;
+	• a menor idade e a maior idade.
+	*/
+
 	#include <stdio.h>
 	#include <stdlib.h>
 	int main()
@@ -19,9 +27,9 @@
 		    n_pessoas--;
 		}
 		}while(n_idade!=0);
-			printf("\nO n�mero de pessoas � %d",n_pessoas);
+			printf("\nO número de pessoas é %d",n_pessoas);
 			med=(float)soma_id/(float)n_pessoas;
-			printf("\nA m�dia � %.2f",med);
-			printf("\nA menor idade � %d e a maior %d",idade_menor,idade_maior);
+			printf("\nA média é %.2f",med);
+			printf("\nA menor idade é %d e a maior %d",idade_menor,idade_maior);
 			system ("pause");
 	}
