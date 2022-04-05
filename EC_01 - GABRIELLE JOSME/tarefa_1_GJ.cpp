@@ -1,25 +1,34 @@
+	/*
+	Crie uma aplicaÃ§Ã£o, utilizando o comando switch, que leia um valor inteiro, e apresente a seguinte
+	frase, conforme tabela abaixo:
+	1 - VocÃª Ã© Carioca
+	2 - VocÃª Ã© Paulista
+	3 - VocÃª Ã© Mineiro
+	4 - VocÃª Ã© Capixaba
+	Diferente dos acima - VocÃª nÃ£o Ã© do sudeste
+	*/
 	#include <stdio.h>
 	#include <stdlib.h>
 	int main()
 	{
 	    int num1;
-	    printf("Digite um valor correspodente para cada região\n1 - Você é Carioca\n2 - Você é Paulista\n3 - Você é Mineiro\n4 - Você é Capixaba \n");
+	    printf("Digite um valor correspodente para cada regiÃ£o\n1 - VocÃª Ã© Carioca\n2 - VocÃª Ã© Paulista\n3 - VocÃª Ã© Mineiro\n4 - VocÃª Ã© Capixaba \n");
 	    scanf("%d",&num1);
 	    switch(num1){
 	        case 1:
-	            printf("\nVocê é Carioca");
+	            printf("\nVocÃª Ã© Carioca");
 	            break;
 	        case 2:
-	            printf("\nVocê é Paulista");
+	            printf("\nVocÃª Ã© Paulista");
 	            break;
 	        case 3:
-	            printf("Você é Mineiro");
+	            printf("VocÃª Ã© Mineiro");
 	            break;
 	        case 4:
-	            printf("Você é Capixaba");
+	            printf("VocÃª Ã© Capixaba");
 	            break;
 	        default:
-	            printf("\nVocê não é do sudeste");
+	            printf("\nVocÃª nÃ£o Ã© do sudeste");
 	    }
 	    system ("pause");
 	}
